@@ -23,13 +23,13 @@ func Sqrt(x float64) (float64, error) {
 }
 
 func main() {
-	if result, err := Sqrt(4); err != nil {
+	if result, err := Sqrt(12); err != nil {
 		fmt.Println(err)
 	} else {
 		fmt.Println(result)
 	}
 
-	if result, err := Sqrt(-2); err != nil {
+	if result, err := Sqrt(-4); err != nil {
 		fmt.Println(err)
 	} else {
 		fmt.Println(result)
